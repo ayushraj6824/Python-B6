@@ -30,7 +30,7 @@ root.title("File Downloader")
 root.geometry("800x400")  # Set the window size
 
 # Display Name and SAP ID
-name_label = tk.Label(root, text="Name: AYUSH KUMAR")
+name_label = tk.Label(root, text="Name: AYUSH Kumar")
 name_label.pack(pady=5)
 
 sap_id_label = tk.Label(root, text="SAP ID: 590017862")
