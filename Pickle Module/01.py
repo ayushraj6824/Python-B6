@@ -18,3 +18,14 @@ with open(fileName, "rb") as file:
     loaded_data = pickle.load(file)
 
 print("Deserialized data:", loaded_data)
+
+
+# fileHandle = open(fileName, "wb")
+# pickle.dump(list1, fileHandle)
+# fileHandle.close()
+# try: 
+#     with open(fileName,"wb") as fileHandle:
+#         pickle.dump(list1, fileHandle)
+#     print("Object Save Successfully")
+# except:
+#     print("Error Occured Saving Object")
