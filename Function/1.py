@@ -9,8 +9,8 @@ def counter():
 
 counter1 = counter()
 
-print(counter1())  # Output: 1
-print(counter1())  # Output: 2
+print(counter1())  
+print(counter1())  
 
 counter2 = counter()
-print(counter2())  # Output: 1
+print(counter2())  
